@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle2.png" translatesAutoresizingMaskIntoConstraints="NO" id="qPx-3B-S7r">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TicTacToe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Of2-nd-xTW">
+                                <rect key="frame" x="97" y="135" width="127" height="36"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Deipayan Dash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNd-Zv-9EZ">
+                                <rect key="frame" x="115" y="506" width="90" height="15"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Of2-nd-xTW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Azr-uL-8TB"/>
+                            <constraint firstItem="oNd-Zv-9EZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KOy-14-XTd"/>
+                            <constraint firstItem="qPx-3B-S7r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KiY-6B-J6f"/>
+                            <constraint firstAttribute="bottom" secondItem="qPx-3B-S7r" secondAttribute="bottom" id="TSc-7F-dHv"/>
+                            <constraint firstItem="qPx-3B-S7r" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="UXg-6C-wsa"/>
+                            <constraint firstItem="oNd-Zv-9EZ" firstAttribute="top" secondItem="Of2-nd-xTW" secondAttribute="bottom" constant="335" id="d2h-Qm-8Dd"/>
+                            <constraint firstItem="Of2-nd-xTW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="115" id="hHE-ei-T2y"/>
+                            <constraint firstItem="qPx-3B-S7r" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zxU-Cc-khb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Rectangle2.png" width="1000" height="1000"/>
+    </resources>
+</document>
